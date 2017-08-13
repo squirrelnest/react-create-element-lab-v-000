@@ -27,7 +27,7 @@ describe('You in React', () => {
     });
 
     it('should contain the right text', () => {
-      expect(element.props.children).to.equal('An Awesome Person');
+      expect(element.props.children).to.equal('Mikka');
     });
   });
 
@@ -43,7 +43,7 @@ describe('You in React', () => {
     });
 
     it('should contain the right text', () => {
-      expect(element.props.children).to.equal('Who is learning React');
+      expect(element.props.children).to.equal('Serial career-changer');
     });
   });
 
@@ -67,10 +67,10 @@ describe('You in React', () => {
     });
 
     it('should have the right interests', () => {
-      expect(element.props.children[0].props.children).to.equal('JavaScript');
-      expect(element.props.children[1].props.children).to.equal('React');
-      expect(element.props.children[2].props.children).to.equal('Movies');
-      expect(element.props.children[3].props.children).to.equal('Ice cream');
+      expect(element.props.children[0].props.children).to.equal('Coding');
+      expect(element.props.children[1].props.children).to.equal('Animation');
+      expect(element.props.children[2].props.children).to.equal('Acrobatics');
+      expect(element.props.children[3].props.children).to.equal('Sailing');
     });
   });
 });
